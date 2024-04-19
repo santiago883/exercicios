@@ -18,10 +18,10 @@ int main(){
     
     if(presenca >= 75 || notat < 50){
 
-        notaf = ( notat + notaR);
+        notaf = ( notat + notaR)
 
 
-        if (notaf <= 99){
+        if (notaf <= 100){
             printf(" Você não conseguiu recuperar\n");
         }else {
             printf("aprovado ");
